@@ -14,5 +14,20 @@
 14. <br> A. true <br> JavaScript performs type coercion, converting '2' to a number before comparing. Thus, 2 > 1 is true.  <br>  B.  false  <br>  dictionary comparison, first char "2" is greater than the first char "1"  <br>  C.  true <br> The == operator performs type coercion. It converts the string '2' to a number before comparing, resulting in 2 == 2.  <br> D.  false  <br>  The === operator checks for both value and type equality without performing type coercion. Since the types differ (number vs. string), the result is false. <br>  E.  false <br>   true is coerced to 1 when compared with numbers, so true == 2 is false because 1 is not equal to 2. <br>  F. true  <br> Boolean(2) returns true because any non-zero number is true in JavaScript. Both operands are of the same type (boolean) and value (true), so the strict equality (===) returns true  
 15. A strict equality operator === checks the equality without type conversion, while an equality operator == converts different types of operands to numbers.<br> Use == if we need type coercion. <br> Use === if we require strick type and value equality.
 16. [Link to part2-question16.js](./part2-question16.js)
-17. 
+17. modifyArray([1,2,3], doSomething) will return new array [ 2, 4, 6 ] <br> This array represents each of the original array elements doubled, which demonstrates a common use of callbacks for transforming data in JavaScript. modifyArray passed an array and function modifies each array by using for loop followed by rule of the function and return the modified new array.
+18. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
