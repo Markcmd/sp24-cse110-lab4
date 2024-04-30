@@ -15,7 +15,8 @@
 15. A strict equality operator === checks the equality without type conversion, while an equality operator == converts different types of operands to numbers.<br> Use == if we need type coercion. <br> Use === if we require strick type and value equality.
 16. [Link to part2-question16.js](./part2-question16.js)
 17. modifyArray([1,2,3], doSomething) will return new array [ 2, 4, 6 ] <br> This array represents each of the original array elements doubled, which demonstrates a common use of callbacks for transforming data in JavaScript. modifyArray passed an array and function modifies each array by using for loop followed by rule of the function and return the modified new array.
-18. 
+18. [Link to part2-question18.js](./part2-question18.js)
+19. 1 <br> 4 <br> 3 <br> 2
 
 
 
